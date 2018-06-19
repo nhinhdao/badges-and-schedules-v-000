@@ -12,6 +12,10 @@ def assign_rooms(list)
       newlist = []
       list.each_with_index { |name, index| newlist.push("Hello, #{name}! You'll be assigned to room #{index + 1}!")}
       newlist
+      # we can out .each.map. coooool
+      # attendees.each_with_index.map do |attendee, index|
+      #   "Hello, #{attendee}! You'll be assigned to room #{index+1}!"
+      # end
 end
 
 def printer(list)
